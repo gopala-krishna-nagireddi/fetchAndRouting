@@ -1,0 +1,56 @@
+/* Write your CSS code here */
+.blog-item-link {
+  text-decoration: none;
+}
+
+.blog-item {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #d3d3d3;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+.blog-item > img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.blog-details-container > p {
+  color: #8e8e8e;
+  font-size: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .blog-item {
+    flex-direction: row;
+  }
+
+  .blog-item > img {
+    width: 45%;
+    height: 220px;
+    margin-right: 30px;
+  }
+}
+
+.blog-details-container > h1 {
+  color: #000000;
+  font-size: 20px;
+}
+
+.author-details-container {
+  display: flex;
+  align-items: center;
+}
+
+.author-details-container > img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.author-details-container > p {
+  color: #2f4f4f;
+}

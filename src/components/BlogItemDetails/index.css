@@ -1,0 +1,36 @@
+/* Write your CSS code here */
+.blog-item-details-container {
+  width: 80%;
+}
+
+.blog-item-details-container > h1 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.blog-author-details-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.blog-author-details-container > img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.blog-item-image {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.blog-item-details-container > p {
+  font-size: 20px;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+}
